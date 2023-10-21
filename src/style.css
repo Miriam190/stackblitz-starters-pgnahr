@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: serif;
+  color:#343a40;
+  background-color:#96f2d7;
+}
+
+.countContainer {
+  text-align: center;
+  margin: 0 auto;
+  border: 4px double #343a40;
+  border-radius: 0.5rem;
+  max-height: auto;
+  max-width: 45%;
+  margin-top: 3rem;
+}
+
+.numCount{
+  font-weight: 900;
+  font-size: larger;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+  gap:3px;
+  width:0 auto;
+}
+
+h1{
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.increase{
+  height: 3rem;
+  background-color: #96f2d7;
+  color: #212526;
+  font-weight: 600;
+  font-size:large;
+}
+
+.errorBoundarytest{
+text-align:center;
+}
+
+.errorbtn{
+  background-color:#96f2d7 ;
+  color: #212529;
+  border-radius: 3rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding:0.6rem;
+}
+
+
+.navlink{
+  display: flex;
+  flex-direction: row;
+}
+
+ .links {
+  list-style: none;
+  margin-left: 2.5rem;
+  border: 2px solid #212529;
+  border-radius: 0.4rem;
+  background-color: #96f2d7;
+  padding: 7px;
+} 
+
+.linksto {
+  text-decoration: none;
+  font-weight: 800;
+  color: #212529;
+}
